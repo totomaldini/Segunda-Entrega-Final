@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Serif:ital,opsz@0,8..144;1,8..144&display=swap');
+
+body{
+	font-family: 'Roboto Serif', sans-serif;
+	min-height: 100%;
+}
+
+.bg-aquamarine{
+   background-color:#29a4aa;
+}
+
+.image-center{
+    display: flex;
+    margin: auto;
+	justify-content: center;
+	width: 70%;
+}
+
+.img_center3{
+	display: flex;
+    margin: auto;
+	justify-content: center;
+}
+
+nav ul li{
+    margin: 0 28px;
+    display: flex;
+}
+
+h4,h3,h2
+{
+    color: #29a4aa;
+}
+h5{
+    color: white;
+}
+
+.botonera-footer{
+    display: flex;
+    align-items: center;
+}
+
+.scale:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: transform 0.2s;
+}
+
+.contenido4{
+	height: auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 10px;
+	flex-direction: column;
+	font-size: 1.5rem;
+}
+
+.divOtp{
+	background-color: #29a4aa;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: row;
+	width: fit-content;
+	padding: 25px;
+}
+
+.input-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido3{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.titulo__contacto{
+    color: white;
+    font-size: 2rem;	
+    text-align: center;
+    }
+    
+    .titulo__contacto-fondo{
+        background-color: #29a4aa;
+        border: white solid 4px;
+    }
+    
+    
+    .label-contacto{
+        display: table-row;	
+    }
+    

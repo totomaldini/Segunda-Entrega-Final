@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!---mi css-->
+    <title>Abstracta</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/animate.css">
+  </head>
+  <body>
+<!---ini nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-aquamarine wow fadeInDown sticky-top">
+        <div class="container-fluid">
+          <img src="../img/logo.png" alt="">
+          <a class="navbar-brand text-light fs-3 ms-1 wow pulse" href="../index.html">Abstracta ART</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-5 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light fs-4 scale" aria-current="page" href="mihistoria.html">Mi Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light fs-4 scale" href="obras.html">Obras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light fs-4 scale" href="otrostrabajos.html">Otros Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light fs-4 scale" href="contactos.html"> Contactos</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!---end nav-->
+
+<!---inicia main-->
+<main class="contenido3 m-auto p-5">
+  <div class="titulo__contacto-fondo p-5">
+    <h2 class="titulo__contacto">Contacto</h2>
+    <form action="envio.php" class="p-5 m-auto text-center text-ligth fs-4">
+            <legend class="fs-3 text-light">Para mas informacion sobre nuestros productos:</legend>
+            <label for="name" class="label-contacto fs-4 pt-3 text-light">Nombre y apellido:</label>
+            <input type="text" id="name" placeholder="Guadalupe Duran" class="fs-4">
+            <label for="email" class="label-contacto fs-4 pt-3 text-light"> Email:</label>
+           <input type="text" id="email" placeholder="lupeduran@gmail.com"class="fs-4">
+           <label for="telefono" class="label-contacto fs-4 pt-3 text-light"> Telefono:</label>
+           <input type="text" id="telefono" placeholder="1140004000" class="fs-4">
+           <label for="newslatter" class="label-contacto fs-4 pt-3 text-light"> ¿Desea recibir el Newslatter?</label>
+           <input type="radio" id="newslatter" value="domicilio" name="news" class="fs-4">
+          <label for="comentario" class="label-contacto fs-4 pt-3 text-light">Dejanos tu comentario sobre los productos que ofrecemos!</label>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe aqui"></textarea>
+    <div class="m-auto">
+    <input type="reset" value="Cancelar">
+    <input type="submit" value="Enviar">
+    </div>
+</form>
+</div>
+</main>
+
+<!---end main-->
+
+<!---inicia footer-->
+<footer class="wow fadeInUp">
+  <nav class="nav nav-pills flex-column flex-sm-row bg-aquamarine botonera-footer">
+  <a href="https://api.whatsapp.com/send?phone=5491154713935&text=Me%20interesa%20saber%20sobre%20tus%20cuadros!"target="_blank">
+  <img src="../img/whatsapp.png" alt="insta" class="px-5 pt-3 m-4 scale">
+  </a>
+  <a href="https://www.instagram.com/abstracta.art_/?hl=es-la"target="_blank scale" >
+  <img src="../img/instagram.png" alt="insta" class="px-5 pt-3 m-4 scale">
+  </a>
+  <a href="https://www.facebook.com/Abstracta.art1"target="_blank">
+  <img src="../img/facebook.png" alt="face" class="px-5 pt-3 m-4 scale">
+  </a>
+  <h5 class="text-center fs-3 p-5 m-5">¡Encuentranos aqui!</h5>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.207358344605!2d-58.40238638423396!3d-34.72516727144226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd6c78bc9811%3A0x78ea2e8f6fe77851!2sAv.%20Coronel%20Le%C3%B3nardo%20Rosales%20911%2C%20B1823%20Remedios%20de%20Escalada%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1655164927443!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="flex-sm-fill px-5 py-2"></iframe>
+  </nav>
+
+  <script src="../js/wow.min.js"></script>
+  <script>
+   new WOW().init();
+   </script>
+
+</footer>
+<!---termina footer-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
